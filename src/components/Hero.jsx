@@ -1,5 +1,5 @@
-import { motion } from 'motion/react';
-import { FiArrowDownRight } from 'react-icons/fi';
+import { motion } from "motion/react";
+import { FiArrowDownRight } from "react-icons/fi";
 
 export default function Hero() {
   return (
@@ -10,32 +10,33 @@ export default function Hero() {
       {/* Background decorative elements */}
       <div className="absolute inset-0 z-0">
         {/* Grid pattern */}
-        <div className="absolute inset-0 opacity-[0.04]"
+        <div
+          className="absolute inset-0 opacity-[0.04]"
           style={{
             backgroundImage: `
               linear-gradient(#1a1a1a 1px, transparent 1px),
               linear-gradient(90deg, #1a1a1a 1px, transparent 1px)
             `,
-            backgroundSize: '60px 60px',
+            backgroundSize: "60px 60px",
           }}
         />
-        
+
         {/* Floating shapes */}
         <motion.div
           animate={{ rotate: 360 }}
-          transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
           className="absolute top-20 right-20 w-32 h-32 border-4 border-brutal-black bg-brutal-yellow hidden lg:block"
         />
         <motion.div
           animate={{ y: [0, -20, 0] }}
-          transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           className="absolute bottom-32 left-16 w-20 h-20 bg-brutal-pink border-4 border-brutal-black rounded-full hidden lg:block"
         />
         <motion.div
           animate={{ rotate: [-10, 10, -10] }}
-          transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
           className="absolute top-1/3 right-1/4 w-16 h-16 bg-brutal-blue border-4 border-brutal-black hidden lg:block"
-          style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }}
+          style={{ clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)" }}
         />
       </div>
 
@@ -68,7 +69,7 @@ export default function Hero() {
                 <span className="relative z-10">DIGITAL</span>
                 <motion.span
                   initial={{ width: 0 }}
-                  animate={{ width: '100%' }}
+                  animate={{ width: "100%" }}
                   transition={{ duration: 0.8, delay: 0.8 }}
                   className="absolute bottom-1 left-0 h-4 sm:h-5 bg-brutal-pink z-0"
                 />
@@ -84,8 +85,8 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.5 }}
               className="font-mono text-sm sm:text-base text-brutal-black/70 max-w-md mb-8 leading-relaxed"
             >
-              Fullstack developer yang passionate dalam membangun website 
-              yang unik, fungsional, dan memorable. Tidak ada yang biasa-biasa saja.
+              Fullstack developer yang passionate dalam membangun website yang
+              unik, fungsional, dan memorable. Tidak ada yang biasa-biasa saja.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -120,7 +121,7 @@ export default function Hero() {
             initial={{ opacity: 0, scale: 0.8, rotate: -5 }}
             animate={{ opacity: 1, scale: 1, rotate: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="hidden lg:block"
+            className=" lg:block"
           >
             <div className="relative">
               {/* Main card */}
@@ -130,7 +131,7 @@ export default function Hero() {
                 </div>
                 <pre className="font-mono text-sm leading-relaxed">
                   <code>
-{`const developer = {
+                    {`const developer = {
   name: "Muahamad Nur Rizki",
   role: "Fullstack Dev",
   university: "Universitas Pamulang"
@@ -165,7 +166,10 @@ export default function Hero() {
         >
           <div className="animate-marquee whitespace-nowrap flex">
             {[...Array(2)].map((_, i) => (
-              <span key={i} className="font-mono font-bold text-sm text-brutal-black mx-8 flex items-center gap-8">
+              <span
+                key={i}
+                className="font-mono font-bold text-sm text-brutal-black mx-8 flex items-center gap-8"
+              >
                 <span>★ REACT.JS</span>
                 <span>★ TAILWIND CSS</span>
                 <span>★ JAVASCRIPT</span>
