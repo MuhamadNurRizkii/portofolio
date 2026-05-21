@@ -74,7 +74,7 @@ export default function About() {
                 <p>
                   Halo! Saya seorang{" "}
                   <strong className="bg-brutal-yellow px-1">
-                    Frontend Developer
+                    Fullstack Developer
                   </strong>{" "}
                   yang bersemangat membangun pengalaman digital yang unik.
                 </p>
@@ -87,11 +87,11 @@ export default function About() {
                   , dan{" "}
                   <strong className="bg-brutal-yellow px-1">ekspresi</strong>.
                 </p>
-                <p>
+                {/* <p>
                   Dengan fokus pada desain brutalisme dan modern web
                   technologies, saya mengubah ide menjadi produk digital yang
                   bold dan memorable.
-                </p>
+                </p> */}
               </div>
               <div className="mt-6 flex flex-wrap gap-2">
                 {[
