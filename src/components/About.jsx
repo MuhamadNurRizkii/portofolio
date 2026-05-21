@@ -94,20 +94,16 @@ export default function About() {
                 </p> */}
               </div>
               <div className="mt-6 flex flex-wrap gap-2">
-                {[
-                  "React",
-                  "JavaScript",
-                  "UI/UX",
-                  "Brutalism",
-                  "Creative Dev",
-                ].map((tag) => (
-                  <span
-                    key={tag}
-                    className="font-mono text-xs font-bold bg-brutal-black text-brutal-yellow px-3 py-1 border-2 border-brutal-black"
-                  >
-                    {tag}
-                  </span>
-                ))}
+                {["React", "JavaScript", "Brutalism", "Creative Dev"].map(
+                  (tag) => (
+                    <span
+                      key={tag}
+                      className="font-mono text-xs font-bold bg-brutal-black text-brutal-yellow px-3 py-1 border-2 border-brutal-black"
+                    >
+                      {tag}
+                    </span>
+                  ),
+                )}
               </div>
             </div>
           </motion.div>
