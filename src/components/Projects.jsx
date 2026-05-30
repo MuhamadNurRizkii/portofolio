@@ -13,7 +13,7 @@ const projects = [
     github: "https://github.com/MuhamadNurRizkii/money-tracking-app",
   },
   {
-    title: "SISTEM KASIR SEDERAHAN",
+    title: "SISTEM KASIR SEDERAHANA",
     desc: "Aplikasi Kasir sederhana untuk melakukan transaksi dan menambah barang/produk.",
     tags: ["React", "Supabase", "Shadcn UI"],
     color: "bg-brutal-pink",
