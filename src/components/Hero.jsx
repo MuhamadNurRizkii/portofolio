@@ -132,7 +132,7 @@ export default function Hero() {
                 <pre className="font-mono text-sm leading-relaxed">
                   <code>
                     {`const developer = {
-  name: "Muahamad Nur Rizki",
+  name: "Muhamad Nur Rizki",
   role: "Fullstack Dev",
   university: "Universitas Pamulang"
 };`}
